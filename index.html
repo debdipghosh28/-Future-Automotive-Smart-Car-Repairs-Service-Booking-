@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>base</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css"/>
+    <script src="index.html.js" defer></script>
+</head>
+<body>
+    <div class="boku">
+        <nav class="container1">
+            <div class="logo"><i class="fas fa-car"></i>Future Automotive</div>
+            <ul class="king">
+                <li><a href="#" class="selected">Home</a></li>
+                <li><a href="#feature">Features</a></li>
+                <li><a href="#Price">Price</a></li>
+                <li><a href="#Contact">Contact</a></li>
+                <li><a href="#Book" class="highlight">Book Appointment</a></li>
+            </ul>
+        </nav>
+        <div class="content"></div>
+            <div class="container2" style="font-size: x-large;">
+                <h1>Your car repairs</h1>
+                <p> Visit Us For Your Service</p>
+                <a class="hightlight" href="#Book">Book Appointment</a>
+            </div>
+         </div>
+        </div>
+        <!-- feature -->
+        <section id="feature" class="features-section">
+            <h2>🌟 Our Features 🌟</h2>
+            <div class="features-container">
+              <div class="feature-box">
+                <h3>🛠️Expert Repairs</h3>
+                <p>Professional automotive repair services with cerfied technicians</p>
+              </div>
+              <div class="feature-box">
+                <h3>🛡️Quality Guarantee</h3>
+                <p>All repairs come with compehensive warranty and quality assurance </p>
+              </div>
+              <div class="feature-box">
+                <h3>🕛Quick Service</h3>
+                <p>Fast turnaround times without compromising on quality</p>
+              </div>
+              <div class="feature-box">
+                <h3>🏅Certified Excellence</h3>
+                <p>Award-winning service with industry certifications</p>
+              </div>
+            </div>
+          </section>
+          <div class="pricing-container">
+            <div class="card">
+              <h2>Basic Service</h2>
+              <p class="price">$99</p>
+              <ul>
+                <li>✔ Oil change & filter replacement</li>
+                <li>✔ Basic inspection </li>
+                <li>✔ Fluid level check</li>
+                <li>✔ Battery test</li>
+                
+              </ul>
+              <a href="#" class="btn">Choose Plan</a>
+            </div>
+        
+            <div class="card">
+              <h2>Standard Service</h2>
+              <p class="price">$199</p>
+              <ul>
+                <li>✔ Everything in basic </li>
+                <li>✔ Brake inspection</li>
+                <li>✔ Tire rotation</li>
+                <li>✔ Engine diagnostic</li>
+                <li>✔ Air filter  replacement</li>
+              </ul>
+              <a href="#" class="btn">Choose Plan</a>
+            </div>
+        <!-- price -->
+            <div id="Price" class="card">
+              <h2>Premium Service</h2>
+              <p class="price">$299</p>
+              <ul>
+                <li>✔Everything in Standard</li>
+                <li>✔ Transmission service</li>
+                <li>✔ AC system check</li>
+                <li>✔ Aligment check</li>
+                <li>✔ Full detailing</li>
+              </ul>
+              <a href="#" class="btn">Choose Plan</a>
+            </div>
+          </div>
+          <!-- book appointment -->
+          <section id="Book" class="appointment-section">
+            <div class="appointment-box">
+              <h2>Book an Appointment</h2>
+              <form>
+                <div class="form-group">
+                  <label for="name">Full Name</label>
+                  <input type="text" id="name" placeholder="Enter your name" required>
+                </div>
+        
+                <div class="form-group">
+                  <label for="email">Email Address</label>
+                  <input type="email" id="email" placeholder="Enter your email" required>
+                </div>
+        
+                <div class="form-group">
+                  <label for="phone">Phone Number</label>
+                  <input type="tel" id="phone" placeholder="Enter your phone number" required>
+                </div>
+        
+                <div class="form-group">
+                  <label for="date">Select Date</label>
+                  <input type="date" id="date" required>
+                </div>
+        
+                <div class="form-group">
+                  <label for="time">Select Time</label>
+                  <input type="time" id="time" required>
+                </div>
+        
+                <div class="form-group">
+                  <label for="service">Choose Service</label>
+                  <select id="service" required>
+                    <option value="">-- Select --</option>
+                    <option>Consultation</option>
+                    <option>Repair Service</option>
+                    <option>Follow-up</option>
+                    <option>Other</option>
+                  </select>
+                </div>
+        
+                <div class="form-group">
+                  <label for="message">Additional Notes</label>
+                  <textarea id="message" rows="4" placeholder="Write here..."></textarea>
+                </div>
+        
+                <button type="submit">Confirm Appointment</button>
+              </form>
+            </div>
+          </section>
+          <!-- contact -->
+          <div id="Contact" class="container">
+            <h1>Connect With Us </h1>
+            <p> We would love to respond to your queries and help you succeed.<br> Feel free to get in touch with us.</p>
+         <div class="contact-box" style="width: 60%";>
+            <div>
+            <div class="contact-left">
+                <h3>Sent your request</h3>
+        
+            </div>
+        <form style=" margin-left: 69px;width:100%"; >
+            <div class="input-row">
+                <div class="input-group">
+                    <label >Name</label>
+                    <input type="text" placeholder="John Amendo" >
+                </div>
+                <div class="input-group">
+                    <label>Phone</label>
+                    <input type="text" placeholder="+91XXXXXXXX" >
+                </div>      
+            </div>
+            <div class="input-row">
+                <div class="input-group">
+                    <label >Email</label>
+                    <input type="text" placeholder="johnamendogm@gmail.com" >
+                </div>
+                <div class="input-group">
+                    <label>Subject</label>
+                    <input type="text" placeholder="Product Demo" >
+                </div>
+    
+            </div>
+            <label>Message</label>
+            <textarea rows="5" placeholder="Your Massege"></textarea>
+            <button  type="submit">SEND</button>
+        </form>
+        </div>
+                <div class="contact-right">
+                    <h3>Reach Us </h3>
+                    <table>
+                        <tr>
+                            <td>Email</td>
+                            <td>automotivefuture@carsales.com.au</td>
+                        </tr>
+                        <tr>
+                            <td>Phone</td>
+                            <td>+91 82XXXXXXXX</td>
+                        </tr>
+                        <tr>
+                            <td>Address</td>
+                            <td> Budge Trunk Road, Sarkarpool, Rampur, Santoshpur, Kolkata,<br> Maheshtala, West Bengal 700143</td>
+                        </tr>
+                    </table>
+                </div>
+    
+         </div>
+        </div>
+            
+        
+    <footer>
+        <ul class="container3"> 
+            <li>
+                <strong>Our Location</strong>
+                <p> Budge Trunk Road, Sarkarpool, Rampur, Santoshpur, Kolkata,<br> Maheshtala, West Bengal 700143</p>
+            </li>
+            <li>
+                <strong>Phone</strong>
+                <p>+91 82XXXXXXXX</p>
+            </li>
+            <li>
+                <strong>Email</strong>
+                <p>automotivefuture@carsales.com.au</p>
+            </li>
+        </ul>
+    </footer>
+</body>
+</html>
