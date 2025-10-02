@@ -211,12 +211,7 @@ footer p{
     line-height: 1.6;
   }
 
-  @media (max-width: 768px) {
-    .features-container {
-      flex-direction: column;
-      align-items: center;
-    }
-  }
+ 
   /* price */
   
   .pricing-container {
@@ -290,7 +285,7 @@ footer p{
     background: url(bgshowroom.png);
     background-size: cover;
     width: 100%;
-    height: 105vh;
+    height: 78vh;
     /* margin: 50px auto; */
 }
 .container h1{
@@ -304,10 +299,11 @@ footer p{
     margin-left: 30px;
 }
 .contact-box{
+  width: 60%;
     background: #fff;
     display: flex;
     flex-direction: row;
-    height: 83vh;
+    height: 60vh;
     margin-left: 24em;
     border-radius: 15px;
 }
@@ -454,43 +450,207 @@ tr td{
     background: #0056b3;
   }
 
-  
-  @media (max-width: 768px) {
-    .appointment-box {
-      padding: 25px;
-    }
-
-    .appointment-box h2 {
-      font-size: 1.7rem;
-    }
-
-    input, select, textarea {
-      padding: 10px;
-      font-size: 0.95rem;
-    }
-
-    button {
-      font-size: 1rem;
-      padding: 12px;
-    }
+  @media screen and (min-width: 0px) and (max-width: 413px) {
+    .boku{
+      width: 298vw;
+    height: 72vh;
   }
-
-  @media (max-width: 480px) {
-    .appointment-box {
-      padding: 20px;
-    }
-
-    .appointment-box h2 {
-      font-size: 1.5rem;
-    }
-
-    input, select, textarea {
-      font-size: 0.9rem;
-      padding: 8px;
-    }
-
-    button {
-      font-size: 0.95rem;
-      padding: 10px;
-    }
+  .features-section {
+    width: 67em;
+    height: 24em;
   }
+  .features-section h2 {
+    font-size: 21px;
+    margin-bottom: 12px;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    margin-top: 0;
+}
+.feature-box h3 {
+  font-size: 15px;
+  margin-bottom: 15px;
+  color: #007BFF;
+}
+.feature-box p {
+  font-size: 12px;
+  line-height: 1.6;
+  }
+  .feature-box {
+    background: rgba(244, 240, 240, 0.9);
+    color: #333;
+    padding: 30px;
+    border-radius: 12px;
+    flex: 1 1 250px;
+    max-width: 13em;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.container2 {
+  margin-left: 4%;
+  margin-top: 16%;
+}
+.pricing-container {
+  width: 67em;
+  height: 24em;
+}
+/* 
+.card:hover {
+  transform: translateY(-10px); 
+  }*/
+.card {
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 2px 8px;
+  width: 65vw;
+  text-align: center;
+  height: 28vh;
+  transition: 0.3s 
+ease;
+}
+.card h2 {
+  margin: 0px;
+  font-size: 15px;
+  color: #333;
+  margin-top: 5px;
+}
+.price {
+  font-size: 18px;
+  margin: 3px 0;
+  color: #007BFF;
+  font-weight: bold;
+}
+ul {
+  list-style: none;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+ul li {
+margin: 1px 0;
+color: #555;
+}
+.btn {
+  display: inline-block;
+  padding: 2px 9px;
+  background: #007BFF;
+  color: #fff;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.appointment-section{
+  width: 67em;
+  height: 24em;
+}
+.appointment-box h2 {
+  text-align: center;
+  margin: 0;
+  /* margin-bottom: 25px; */
+  color: #007BFF;
+  font-size: 17px;
+}
+label {
+  display: block;
+  margin-bottom: 1px;
+  font-weight: 600;
+}
+input, select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 12px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+button:hover {
+  background: #0056b3;
+}
+
+button {
+  width: 42%;
+  padding: 7px;
+  margin-left: 76px;
+  margin-top: 0;
+  background: #007BFF;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+.form-group {
+  margin-bottom: 5px;
+}
+.appointment-box {
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  width: 136vw;
+  height: 82vh;
+}
+.container {
+width: 67em;
+height: 42em;
+}
+.container h1 {
+  font-size: 13px;
+  color: #efda1c;
+  /* background-color: #6dc0d200; */
+  width: 37vw;
+  border-radius: 7px;
+  font-weight: 600;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 0;
+  margin-left: 20px;
+}
+.container p {
+  margin-bottom: 14px;
+  color: #ffffff;
+  /* background-color: #3c61c81a; */
+  width: 32em;
+  margin-top: 0;
+  margin-left: 29px;
+}
+.contact-box {
+  background: #fff;
+  display: flex;
+  width:84%;
+  flex-direction: row;
+  height: 68vh;
+  margin-left: 7em;
+  margin-top: 30px;
+  border-radius: 15px;
+}
+.input-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+footer {
+  background-color: #012f35;
+  color: white;
+  height: 86px;
+  width: 67em;
+  padding: 7px;
+}
+footer ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 0;
+  margin: 9px 16px;
+  height: 7vh;
+}
+}
+
+
+
+                                            /* made by DEBDIP GHOSH */
