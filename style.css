@@ -285,7 +285,7 @@ footer p{
     background: url(bgshowroom.png);
     background-size: cover;
     width: 100%;
-    height: 78vh;
+    height: 100vh;
     /* margin: 50px auto; */
 }
 .container h1{
@@ -451,13 +451,17 @@ tr td{
   }
 
   @media screen and (min-width: 0px) and (max-width: 413px) {
+   .body{
+    width: max-content;
+    height: fit-content;
+   }
     .boku{
-      width: 298vw;
-    height: 72vh;
+      width: 300vw;
+      height: 80vh;
   }
   .features-section {
-    width: 67em;
-    height: 24em;
+    width: 300vw;
+    height: 72vh;
   }
   .features-section h2 {
     font-size: 21px;
@@ -491,8 +495,8 @@ tr td{
   margin-top: 16%;
 }
 .pricing-container {
-  width: 67em;
-  height: 24em;
+  width: 300vw;
+  height: 72vh;
 }
 /* 
 .card:hover {
@@ -543,8 +547,8 @@ color: #555;
   transition: 0.3s;
 }
 .appointment-section{
-  width: 67em;
-  height: 24em;
+  width: 300vw;
+  height: 72vh;
 }
 .appointment-box h2 {
   text-align: center;
@@ -596,8 +600,8 @@ button {
   height: 82vh;
 }
 .container {
-width: 67em;
-height: 42em;
+  width: 300vw;
+  height: 88vh;
 }
 .container h1 {
   font-size: 13px;
@@ -636,8 +640,8 @@ height: 42em;
 footer {
   background-color: #012f35;
   color: white;
-  height: 86px;
-  width: 67em;
+  height: 96px;
+  width: 300vw;
   padding: 7px;
 }
 footer ul {
