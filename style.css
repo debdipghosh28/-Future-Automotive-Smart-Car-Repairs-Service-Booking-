@@ -451,210 +451,171 @@ tr td{
   }
 
   @media screen and (min-width: 0px) and (max-width: 413px) {
-   .body{
-    width: max-content;
-    height: fit-content;
-   }
-    .boku{
-      width: 300vw;
-      height: 80vh;
+    .container1{
+      width: 100%;
+      height: 35px;
+      text-align: center;
+    }
+    .features-section {
+      text-align: center;
+      color: #f6fa04;
+      
+      height: 86vh;
+      width: 86vw;
+      background-image: url(background\ mobile.jpg);
+    }
+    .features-section::before {
+      content: "";
+      position: relative;
   }
-  .features-section {
-    width: 300vw;
-    height: 72vh;
+
+  .container1 .logo {
+      margin-left: 0%;
+      font-size: 5px;
+      color: #fff000;
+      text-align: center;
   }
-  .features-section h2 {
-    font-size: 21px;
-    margin-bottom: 12px;
-    font-weight: bold;
-    position: relative;
-    z-index: 1;
-    margin-top: 0;
+  ul li {
+    margin: 0px 0;
+    color: #555;
+    font-size: 7px;
+    margin-right: 34px;
+  }
+  .king li a {
+      margin: 0px 0;
+      color: #555;
+      font-size: 4px;
+      color: white;
+  }
+  .contact-box {
+    width: 48%;
+    background: #fff;
+    display: flex;
+    flex-direction: row;
+    height: 30vh;
+    border-radius: 15px;
+}
+.highlight{
+  background-color: #044300;
+  border-radius: 7px;
+  padding: 5px;
+  text-decoration: none; 
+}
+.boku {
+  background-image: url(background\ mobile.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 86vh;
+  width: 86vw;
+}
+.container2 h1 {
+  font-family: playwrite au nsw, sans-serif;
+  color: rgb(107 245 123);
+  font-weight: 600;
+  margin: 291px 5px 4px 0px;
+  font-size: 20px;
+  font-size:  x-large;
+}
+.container2 p {
+  font-family: monospace;
+  font-weight: 500;
+  color: #ffffff;
+  margin-bottom: 3px;
+  margin-top: 0;
+  font-size: 12px;
+  border-color: black;
+  border-bottom-style: double;
+}
+.hightlight {
+  background-color: #044300;
+  border-radius: 6px;
+  padding: 4px;
+  font-size: 10px;
+  text-decoration: none;
+  color: white;
+}
+.features-section h2 {
+  font-size: 23px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  position: relative;
+  z-index: 1;
+  margin-top: 0;
 }
 .feature-box h3 {
-  font-size: 15px;
-  margin-bottom: 15px;
+  font-size: 9px;
+  margin-bottom: 7px;
   color: #007BFF;
 }
 .feature-box p {
-  font-size: 12px;
-  line-height: 1.6;
+  font-size: 10px;
+  line-height: 10px;
+}
+.feature-box {
+  background: rgba(244, 240, 240, 0.9);
+  color: #333;
+  padding: 10px;
+  width: auto;
+  height: 12vh;
+  border-radius: 22px;
+  flex: 1 1 250px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s, box-shadow 0.3s;
   }
-  .feature-box {
-    background: rgba(244, 240, 240, 0.9);
-    color: #333;
-    padding: 30px;
-    border-radius: 12px;
-    flex: 1 1 250px;
-    max-width: 13em;
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s, box-shadow 0.3s;
-}
-.container2 {
-  margin-left: 4%;
-  margin-top: 16%;
-}
-.pricing-container {
-  width: 300vw;
-  height: 72vh;
-}
-/* 
-.card:hover {
-  transform: translateY(-10px); 
-  }*/
-.card {
-  background: #fff;
-  border-radius: 6px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  padding: 2px 8px;
-  width: 65vw;
-  text-align: center;
-  height: 28vh;
-  transition: 0.3s 
-ease;
+  .feature-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.4);
 }
 .card h2 {
-  margin: 0px;
-  font-size: 15px;
+  margin-bottom: 0px;
+  font-size: 16px;
   color: #333;
-  margin-top: 5px;
+  margin-top: 3px;
 }
 .price {
-  font-size: 18px;
-  margin: 3px 0;
+  font-size: 21px;
+  margin-bottom: 0px;
   color: #007BFF;
   font-weight: bold;
+  margin-top: 4px;
 }
-ul {
-  list-style: none;
-  margin-bottom: 0px;
-  margin-top: 0px;
-}
-ul li {
-margin: 1px 0;
-color: #555;
+.pricing-container {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+  background: url(bgshowroom.png);
+  background-size: cover;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 86vw;
+  background-image: url(background\ mobile.jpg);
 }
 .btn {
   display: inline-block;
-  padding: 2px 9px;
+  padding: 2px 7px;
   background: #007BFF;
   color: #fff;
-  margin-top: 10px;
   border: none;
   border-radius: 5px;
   text-decoration: none;
   font-weight: bold;
+  font-size: 8px;
   transition: 0.3s;
 }
-.appointment-section{
-  width: 300vw;
-  height: 72vh;
-}
-.appointment-box h2 {
-  text-align: center;
-  margin: 0;
-  /* margin-bottom: 25px; */
-  color: #007BFF;
-  font-size: 17px;
-}
-label {
-  display: block;
-  margin-bottom: 1px;
-  font-weight: 600;
-}
-input, select, textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  font-size: 12px;
-  outline: none;
-  transition: border-color 0.3s;
-}
-button:hover {
-  background: #0056b3;
-}
-
-button {
-  width: 42%;
-  padding: 7px;
-  margin-left: 76px;
-  margin-top: 0;
-  background: #007BFF;
-  border: none;
-  border-radius: 8px;
-  color: #fff;
-  font-size: 1.1rem;
-  cursor: pointer;
-  transition: background 0.3s;
-}
-.form-group {
+ul {
+  list-style: none;
   margin-bottom: 5px;
+  margin-top: 2px;
+  margin-right: 1px;
 }
-.appointment-box {
-  background: #fff;
-  padding: 25px;
-  border-radius: 12px;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
-  width: 136vw;
-  height: 82vh;
-}
-.container {
-  width: 300vw;
-  height: 88vh;
-}
-.container h1 {
-  font-size: 13px;
-  color: #efda1c;
-  /* background-color: #6dc0d200; */
-  width: 37vw;
-  border-radius: 7px;
-  font-weight: 600;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  margin-top: 0;
-  margin-left: 20px;
-}
-.container p {
-  margin-bottom: 14px;
-  color: #ffffff;
-  /* background-color: #3c61c81a; */
-  width: 32em;
-  margin-top: 0;
-  margin-left: 29px;
-}
-.contact-box {
-  background: #fff;
-  display: flex;
-  width:84%;
-  flex-direction: row;
-  height: 68vh;
-  margin-left: 7em;
-  margin-top: 30px;
-  border-radius: 15px;
-}
-.input-row {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 30px;
-}
-footer {
-  background-color: #012f35;
-  color: white;
-  height: 96px;
-  width: 300vw;
-  padding: 7px;
-}
-footer ul {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  list-style-type: none;
-  padding: 0;
-  margin: 9px 16px;
-  height: 7vh;
-}
-}
+} 
 
-
-
-                                            /* made by DEBDIP GHOSH */
+   
+  
