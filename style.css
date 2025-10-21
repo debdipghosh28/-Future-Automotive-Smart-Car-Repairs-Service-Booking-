@@ -298,14 +298,14 @@ footer p{
     margin-top: 0;
     margin-left: 30px;
 }
-.contact-box{
+.contact-box {
   width: 60%;
-    background: #fff;
-    display: flex;
-    flex-direction: row;
-    height: 60vh;
-    margin-left: 24em;
-    border-radius: 15px;
+  background: #fff;
+  display: flex;
+  flex-direction: row;
+  height: 90vh;
+  margin-left: 21em;
+  border-radius: 15px;
 }
 .contact-left{
     flex-basis:50%;
