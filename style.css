@@ -371,6 +371,7 @@ button{
 .contact-left h3{
     color:#1c00b5;
     font-weight: 600;
+    width: 14vw;
 }
 .contact-right h3{
     font-weight: 600;
@@ -453,56 +454,62 @@ tr td{
   @media screen and (min-width: 0px) and (max-width: 413px) {
     .container1{
       width: 100%;
-      height: 35px;
+      height: 40px;
       text-align: center;
     }
+    .king li a:hover {
+      color: #5dce51;
+  }
     .features-section {
       text-align: center;
       color: #f6fa04;
-      
       height: 86vh;
-      width: 86vw;
-      background-image: url(background\ mobile.jpg);
+      width: auto;
+      background-image: url(background\ mobile\ \(1\).jpg);
     }
     .features-section::before {
       content: "";
       position: relative;
-  }
-
-  .container1 .logo {
+    }
+    .container1 .logo {
       margin-left: 0%;
       font-size: 5px;
       color: #fff000;
       text-align: center;
+    }
+  
+    ul li {
+      margin: 0px 0;
+      color: #555;
+      font-size: 7px;
+      margin-right: 5px;
   }
-  ul li {
-    margin: 0px 0;
-    color: #555;
-    font-size: 7px;
-    margin-right: 34px;
-  }
+  
   .king li a {
       margin: 0px 0;
       color: #555;
-      font-size: 4px;
+      font-size: 8px;
       color: white;
   }
   .contact-box {
-    width: 48%;
+    width: 76%;
     background: #fff;
     display: flex;
     flex-direction: row;
-    height: 30vh;
+    height: 41vh;
     border-radius: 15px;
+    margin: 0;
+    margin-left: 13px;
 }
 .highlight{
   background-color: #044300;
   border-radius: 7px;
   padding: 5px;
   text-decoration: none; 
+  display: none;
 }
 .boku {
-  background-image: url(background\ mobile.jpg);
+  background-image: url(background\ mobile\ \(1\).jpg);
   background-size: cover;
   background-position: center;
   color: white;
@@ -510,7 +517,7 @@ tr td{
   flex-direction: column;
   align-items: flex-start;
   height: 86vh;
-  width: 86vw;
+  width: auto;
 }
 .container2 h1 {
   font-family: playwrite au nsw, sans-serif;
@@ -587,15 +594,13 @@ tr td{
   display: flex;
   gap: 14px;
   flex-wrap: wrap;
-  background: url(bgshowroom.png);
-  background-size: cover;
   padding: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  width: 86vw;
-  background-image: url(background\ mobile.jpg);
+  width: auto;
+  background-image: url(background\ mobile\ \(1\).jpg);
 }
 .btn {
   display: inline-block;
@@ -615,7 +620,160 @@ ul {
   margin-top: 2px;
   margin-right: 1px;
 }
+.appointment-box h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  color: #007BFF;
+  font-size: 10px;
+}
+.form-group {
+  margin-bottom: 13px;
+}
+label {
+  display: block;
+  margin-bottom: 4px;
+  font-weight: 600;
+  font-size: 9px;
+}
+input, select, textarea {
+    width: 85%;
+    padding: 3px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    font-size: 6px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+button {
+  width: 60%;
+  height: 28px;
+  padding: 4px;
+  margin-left: 21px;
+  margin-top: 0px;
+  background: #007BFF;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 11px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+.appointment-box {
+  background: #fff;
+  padding: 14px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  width: 100%;
+}
+.appointment-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: auto;
+  background: url(background\ mobile\ \(1\).jpg);
+  background-size: cover;
+  padding: 19px;
+}
+.container h1 {
+  color: #080707;
+  background-color: #ffffff33;
+  width: 50vw;
+  border-radius: 7px;
+  font-size: 16px;
+  padding: 24px 0px;
+  margin-bottom: 0px;
+  font-weight: 600;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 0px;
+  margin-left: 23px;
+}
+.container p {
+  margin-bottom: 30px;
+  color: #ffffff;
+  background-color: #27292bb5;
+  width: 81%;
+  margin-top: 0px;
+  font-size: 10px;
+  margin-left: 18px;
+}
+.contact-left h3 {
+  color: #1c00b5;
+  font-weight: 600;
+  font-size: 10px;
+}
+.contact-right {
+  flex-basis: 38%;
+  flex-basis: 38%;
+  padding: 8px;
+  background: #2a2933;
+  color: #fff;
+  margin-left: 7%;
+  width: 100vw;
+  border-radius: 15px;
+  height: 41vh;
+  position: initial;
+  /* flex-direction: column; */
+  align-items: center;
+  /* gap: 30px; */
+  padding: 18px;
+}
+.input-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  margin-right: 18px;
+  width: 79px;
+}
+tr td:first-child {
+  padding-right: 4px;
+  font-size: 7px;
+  }
+  tr td {
+    padding-top: 21px;
+    font-size: 8px;
+}
+.container {
+    background: url(background\ mobile\ \(1\).jpg);
+    background-size: cover;
+    height: 86vh;
+    width: auto;
+}
+footer {
+  background-color: #012f35;
+  color: white;
+  height: 57px;
+  width: auto;
+  padding: 7px;
+}
+footer ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 0;
+  margin: 9px 6px;
+  height: 4vh;
+}
+footer p {
+  margin: 0;
+  width: 72px;
+  font-size: 5px;
+  color: #ffffff;
+}
+.contact-right h3 {
+  font-weight: 600;
+  font-size: 10px;
+}
+.contact-left {
+  flex-basis: 50%;
+  padding: 19px 16px;
+}
+.jit{
+margin-left: 16px;
+    width: 100%;
 } 
+}
 
    
   
